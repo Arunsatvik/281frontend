@@ -1,0 +1,69 @@
+.login {
+    width: 100%;
+    height: 100%;
+    /* background-color: #ffffff; */
+    background-image: url('https://s3.amazonaws.com/images.ecwid.com/images/30049435/1687899467.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__main{
+    width: 400px;
+    height: 550px;
+    /* background-image: url('https://s3.amazonaws.com/images.ecwid.com/images/30049435/1687899467.jpg'); */
+    /* background-color: lightgray; */
+    border-radius: 20px;
+    margin-right: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login__title {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.login__form{
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+}
+
+.login__form > label {
+    
+    color: #ffffff;
+    font-style: normal;
+    font-weight:bolder;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.login__form > input{
+    margin-bottom: 35px;
+    height: 25px;
+}
+
+.login__button {
+    height: 43px;
+    background-color: #7a4f4f;
+    border:none;
+    
+}
+
+.login__button > span {
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.errorMsg {
+    color: red;
+    font-style: italic;
+}
